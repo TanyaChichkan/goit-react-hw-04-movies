@@ -1,0 +1,35 @@
+.form{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.input{
+  width: 200px;
+  height: 30px;
+}
+
+.input:focus{
+  outline:3px solid darkgrey;
+  border: none;
+}
+
+.iconSearch{
+  width: 20px;
+  height: 20px;
+}
+
+.button{
+  margin-left: 10px;
+  height: 30px;
+  align-items: center;
+  display: inline-flex;
+}
+
+.button:hover{
+  font-weight: 700;
+  border: none;
+  outline: 2px solid darkgrey;
+}

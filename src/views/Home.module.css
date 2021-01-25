@@ -1,0 +1,46 @@
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: -10px;
+}
+
+.listItem{
+  width: 200px;
+  height: 330px;
+  margin: 10px;
+
+  transform: scale(1);
+  transition: transform 250ms linear;
+}
+
+.listItem:hover{
+  transform: scale(1.1);
+}
+
+.listItem:hover .itemLink{
+  font-weight: 700;
+  z-index: 1;
+}
+
+.pageTitle{
+  text-align: center;
+  margin:0;
+  margin-bottom: 20px;
+}
+
+.itemLink{
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  background-color: black;
+  padding: 5px;
+  color: white;
+}
+
+.section{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-image:url('../background.jpg');
+}
